@@ -1,0 +1,92 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(../images/1.jpeg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .audio {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .track {
+            color: #d1d1d1;
+            font-family: "Segoe UI", sans-serif;
+            font-size: 11px;
+            padding-left: 10px;
+        }
+        
+        .container {
+            color: #fff;
+            background: #19192b;
+            opacity: 0.85;
+            font-family: "Segoe UI", sans-serif;
+            width: 380px;
+            border: 3px solid #ffffff;
+            border-radius: 10px;
+            padding: 40px 50px;
+        }
+        
+        .greeting {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+        
+        .time {
+            font-size: 60px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .date {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+        
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+        
+        .button2 {
+            margin-left: 136px;
+            padding-top: 20px;
+        }
+        
+        .btnEarth,
+        .btnSpace {
+            color: white;
+            background-color: rgb(125, 129, 153);
+            opacity: 0.75;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 5px 20px;
+        }
+        
+        .btnEarth:hover,
+        .btnSpace:hover {
+            cursor: pointer;
+            opacity: 100;
+        }

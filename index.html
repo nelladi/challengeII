@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>N. Dimitrova - Challenge II</title>
+    <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body onLoad="startTime()">
+
+    <div class="audio">
+        <audio loop controls src="audio/BlackSwanBTS.mp3">
+        </audio>
+        <p class="track">black swan (lo-fi ver.) - bts</p>
+    </div>
+
+    <div class="container" id="container">
+
+        <div class="greeting" id="greeting"></div>
+
+        <div class="time" id="clock"></div>
+
+        <div class="date" id="date"></div>
+
+        <div class="button" id="button">
+            <button onclick="earthTheme()" class="btnEarth" id="btnEarth">earth theme</button>
+        </div>
+
+        <div class="button2" id="button2">
+            <button onclick="refreshPage()" class="btnSpace" id="btnSpace">space theme</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
